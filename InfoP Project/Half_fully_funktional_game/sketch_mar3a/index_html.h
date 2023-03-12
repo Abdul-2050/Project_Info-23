@@ -279,14 +279,11 @@ const char index_html [] = R"=====(
             if (buttonState.toLowerCase().replace(/\s/g, "") === "high") {
               playTheGame();
             }
-
           }
         };
         xhr.open("GET", "/getData");
         xhr.send();
       }, 100);
-
-      
 
       // ############### get Dat from the server every 10 mili seconds ############ //
 
